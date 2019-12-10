@@ -18,13 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Useful icons for resume & Curriculum vitae (CV)
+title: iRizen
 email: irizenbox@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CVAssistant app provides basic icons for your resume & Curriculum vitae (CV)
-  that will boost its visual effect. More than 50 high quality customizable icons
-  available. Additionally, CVAssistant app features a radial gauge constructor to
-  effectively visualize such things as your skill levels in your resume & CV.
 
 github_username: irizen
 

@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        {% for item in site.data.navigation %}
+        {% for item in site.data.cvassistant_navigation %}
         <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
           {{ item.name }}
         </a></li>

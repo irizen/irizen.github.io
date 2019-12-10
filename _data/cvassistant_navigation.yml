@@ -1,0 +1,6 @@
+- name: Home
+  link: /cvassistant/index.html
+- name: Support
+  link: /cvassistant/support.html
+- name: Privacy
+  link: /cvassistant/privacy.html
