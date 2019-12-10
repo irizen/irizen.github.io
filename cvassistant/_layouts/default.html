@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		<head>
+			<meta charset="utf-8" />
+
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+			<link rel="stylesheet" href="/assets/css/styles.css">
+			{% feed_meta %}
+			{% seo %}
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
+			{% include navigation.html %}
+
 			<div class="container">
-
 			{{ content }}
+			</div>
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:irizenbox@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/irizenbox">github.com/irizen</a></li>
-				</ul>
-			</footer>
+			{% include footer.html %}
 		</body>
 	</html>

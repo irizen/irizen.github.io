@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Support
+  link: /support.html
+- name: Privacy
+  link: /privacy.html
