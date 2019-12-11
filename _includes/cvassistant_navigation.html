@@ -1,7 +1,7 @@
-<nav>
-    <ul>
+<nav class="navigation">
+    <ul class="navigation-elements">
         {% for item in site.data.cvassistant_navigation %}
-        <li><a href="{{ item.link }}" {% if page.url == item.link or (page.url == "/cvassistant/" and item.link == "/cvassistant/index.html") %}class="current"{% endif %}>
+        <li class="navigation-item{% if page.url == item.link or (page.url == "/cvassistant/" and item.link == "/cvassistant/index.html") %}-selected{% endif %}"><a href="{{ item.link }}">
           {{ item.name }}
         </a></li>
         {% endfor %}

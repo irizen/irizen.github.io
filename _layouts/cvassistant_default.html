@@ -6,16 +6,21 @@
 			<title>{{ page.title }}</title>
 
 			<link rel="stylesheet" href="/cvassistant/assets/css/styles.css">
-			{% feed_meta %}
-			{% seo %}
+			<!-- {% feed_meta %} -->
+			<!-- {% seo %} -->
 		</head>
 		<body>
-			{% include cvassistant_navigation.html %}
 
-			<div class="container">
-			{{ content }}
+			<div class="wrapper">
+
+				{% include cvassistant_navigation.html %}
+
+				<div class="container">
+					{{ content }}
+				</div>
+
+				{% include footer.html %}
 			</div>
 
-			{% include footer.html %}
 		</body>
 	</html>
