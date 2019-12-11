@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: cvassistant_default
 title: Support
 ---
 <div>
-	<h1 class="header-title">{{ page.title }}</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+<h1 class="header-title">{{ page.title }}</h1>
+<p class="contact-us-introduction">
+You can contact us by sending an email to the address <a href="mailto:irizenbox@gmail.com" name="email">irizenbox@gmail.com</a>
+</p>
 </div>
