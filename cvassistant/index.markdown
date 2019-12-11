@@ -22,7 +22,7 @@ title: Home
 </svg>
 
 <h1>CVAssistant</h1>
-	<p>This app provides basic icons for your resume & Curriculum vitae (CV)
+	<p>This free app provides basic icons for your resume & Curriculum vitae (CV)
         that will boost its visual effect. More than 50 high quality customizable icons
         available. Additionally, CVAssistant app features a radial gauge constructor to
         effectively visualize such things as your skill levels in your resume & CV.</p>
